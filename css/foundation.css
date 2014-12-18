@@ -2929,10 +2929,10 @@ meta.foundation-mq-topbar {
       color: #898989; 
     }
   .icon-bar > a.active {
-    background: #447228; 
+    border-bottom: 5px solid #E0D672;
   }
     .icon-bar > a.active label {
-      color: #FFFFFF; 
+      color: #A09DB5; 
     }
     .icon-bar > a.active i {
       color: #FFFFFF; 
