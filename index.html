@@ -26,7 +26,29 @@
   
   </head>
   <body>
-  	<header>
+      <div class="show-for-small-only">
+   <nav class="tab-bar">
+    
+       <div class="left-small">
+          
+        <a href="#idOfLeftMenu" role="button" aria-controls="idOfLeftMenu" aria-    expanded="false" class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </div>
+   </nav>
+    </div>  
+  	<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <!-- Off Canvas Menu -->
+    <aside class="left-off-canvas-menu">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="accom.html">Rooms</a></li>
+          <li><a href="#">Amenities</a></li>
+          <li><a href="#">Activites</a></li>
+          <li><a href="#">Dining</a></li>    
+          <li><a href="contact.php">Contact Us</a></li>  
+        </ul>
+    </aside>
+    
   		<div class="row row-box-shadow">
   			<div class="large-12 columns" id="header">
   				<div class="large-5 medium-7 columns">
@@ -54,7 +76,11 @@
   				</div>
   			</div>
   		</div>
-    </header>
+    
+      
+      
+    
+      
 
     <!-- START NAVIGATION -->
     <div class="row row-box-shadow">
@@ -204,7 +230,8 @@
             </div>
         </div>
     </div>
-
+      
+      
     <!-- END MAIN CONTENT -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
