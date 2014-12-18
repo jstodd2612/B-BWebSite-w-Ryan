@@ -177,8 +177,17 @@ p:first-letter {
 #footer img{
     margin:20px;
     padding:10px;
+    max-width: 70%;
 }
 
 
 
 
+
+
+
+#footer h5 {
+    font-family: serif;
+    text-transform: uppercase;
+    color:#FFFFFF;
+}

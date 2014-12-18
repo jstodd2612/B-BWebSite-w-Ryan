@@ -19,3 +19,12 @@
 	padding:5% 8%;
 	font-size: 0.8em;
 }
+
+/*-----FOOTER-----*/
+#footer img{
+    margin:20px;
+    padding:10px;
+    max-width: 100%;
+}
+
+
