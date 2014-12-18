@@ -1,0 +1,21 @@
+#wrapper{
+	box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.2);
+	width:72em;
+	margin: 0 auto;
+}
+
+
+/*-----NAVIGATION------*/
+#mainNav{
+	margin:25px 0px;
+
+}
+
+#mainNav a{
+	padding:30px; 
+}
+
+#mainInfo{
+	padding:5% 10%;
+	font-size: 0.8em;
+}

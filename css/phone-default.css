@@ -1,0 +1,123 @@
+#header{
+	background-color: #447228;
+}
+
+#header > div{
+	float:right;
+}
+
+#header ul{
+	list-style: none;
+	display: inline;
+}
+
+#header li{
+	float: right;
+	margin: 5px;
+}
+
+#header a{
+	font-size: 0.8em;
+	color:#FFFFFF;
+}
+
+#headerContact{
+	background-color: #447228;
+}
+
+#headerContact > div{
+	float:right;
+}
+
+#headerContact ul{
+	list-style: none;
+	display: inline;
+}
+
+#headerContact li{
+	float: right;
+	margin: 5px;
+	color: #FFFFFF;
+	font-size: 0.8em;
+}
+
+#headerContact a{
+	font-size: 0.8em;
+	color:#FFFFFF;
+}
+
+#mainInfo h3{
+	margin-bottom: 0px;
+}
+
+#mainInfo h3 span{
+	border-bottom: 3px solid #BF9958;
+}
+
+#mainInfo hr{
+	margin:1px;
+	padding:0px;
+}
+
+#mainInfo p{
+	margin:15px 0;
+}
+
+
+/*-------SOCIAL MEDIA----------*/
+
+#facebook-icon,
+#twitter-icon,
+#pinterest-icon,
+#gplus-icon,
+#linkedin-icon,
+#yelp-icon,
+#instagram-icon,
+#tripadvisor-icon {
+	background-image: url(../img/social_icons.png);
+	width: 36px;
+	height: 36px;
+	-webkit-border-radius: 99%; 
+	-moz-border-radius: 99%;
+	-o-border-radius: 99%;
+	border-radius: 100%;
+	display: block;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+#facebook-icon:hover,
+#twitter-icon:hover,
+#pinterest-icon:hover,
+#gplus-icon:hover,
+#linkedin-icon:hover,
+#yelp-icon:hover,
+#instagram-icon:hover,
+#tripadvisor-icon:hover{
+	background-color: #BF9958;
+}
+
+.socialMedia{
+	list-style:none;
+	display: inline;
+}
+
+.socialMedia li{
+	float:left;
+	margin:0 6px 6px 0;
+}
+
+#facebook-icon { background-position: -11px -9px; }
+#facebook-icon:hover { background-position: -11px -50px; }
+
+#twitter-icon { background-position: -55px -9px; }
+#twitter-icon:hover { background-position: -55px -50px; }
+
+#pinterest-icon { background-position: -99px -9px; }
+#pinterest-icon:hover { background-position: -99px -50px; }
+
+#gplus-icon { background-position: -142px -9px; }
+#gplus-icon:hover { background-position: -142px -50px; }
+
+#linkedin-icon { background-position: -186px -9px; }
+#linkedin-icon:hover { background-position: -186px -50px; }
