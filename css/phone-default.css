@@ -153,6 +153,10 @@ p:first-letter {
 
 /*-----OTHER------*/
 
+.white{
+    color: #FFFFFF;   
+}
+
 .title-block {
 	width: 55px;
 	height: 3px;
@@ -169,25 +173,26 @@ p:first-letter {
     padding:0px;
 }
 
+
+/*-----FOOTER-----*/
 #footer {
     background-color: #447228;
     padding:30px 4%;
 }
 
 #footer img{
-    margin:20px;
+    margin:15px;
     padding:10px;
     max-width: 70%;
 }
-
-
-
-
-
 
 
 #footer h5 {
     font-family: serif;
     text-transform: uppercase;
     color:#FFFFFF;
+}
+
+#reservations a {
+    margin:10px 0px;
 }
