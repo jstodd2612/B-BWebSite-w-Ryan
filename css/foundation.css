@@ -118,13 +118,18 @@ textarea {
 select {
   width: 100%; }
 
+.row-box-shadow{
+    box-shadow: 10px 4px 15px 0px rgba(0,0,0,0.2);
+}
+
 .row {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 72em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 72em;  
+    
 }
   .row:before, .row:after {
     content: " ";
@@ -1157,23 +1162,20 @@ button, .button {
   -webkit-appearance: none;
   border-radius: 0;
   display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
+  padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
   background-color: #447228;
   border-color: #365b20;
   color: #FFFFFF;
-  transition: background-color 300ms ease-out; }
+  transition: background-color 150ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #365b20; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF; }
   button.secondary, .button.secondary {
     background-color: #E0D672;
-    border-color: #d4c63b;
-    color: #FFFFFF; }
+    border-color: #1C1C1C;
+    color: #1C1C1C; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       background-color: #d4c63b; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -1217,9 +1219,9 @@ button, .button {
     padding-left: 2.25rem;
     font-size: 1.25rem; }
   button.small, .button.small {
-    padding-top: 0.875rem;
+    padding-top: 0.675rem;
     padding-right: 1.75rem;
-    padding-bottom: 0.9375rem;
+    padding-bottom: 0.7375rem;
     padding-left: 1.75rem;
     font-size: 0.8125rem; }
   button.tiny, .button.tiny {
@@ -2654,12 +2656,9 @@ meta.foundation-mq-topbar {
 
 /* Panels */
 .panel {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
+  background: #ffffff;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
